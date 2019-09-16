@@ -1,16 +1,31 @@
 package academy.learnprogramming;
 
+/**
+ *
+ */
 public class Main {
 
 
+    /**
+     * This is main method.
+     *
+     * @param args command line arguments
+     */
+    public static void main(String[] args) {
+        // printing size of arguments
+        //
+        //
+        System.out.println("args-size= " + args.length);
 
 
-    public static void main(String[] args){
-        System.out.println("arg-size=" + args.length);
-
-        for(int i = 0; i < args.length; i++) {
+        /*
+         * printing arguments
+         * another line
+         */
+        for (int i = 0; i < args.length; i++) {
             System.out.println("args[" + i + "]=" + args[i]);
         }
+
 
     }
 
@@ -24,6 +39,4 @@ public class Main {
     public static int sum(int a, int b) {
         return a + b;
     }
-
-
 }
