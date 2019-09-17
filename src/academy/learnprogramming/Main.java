@@ -26,6 +26,8 @@ public class Main {
             System.out.println("args[" + i + "]=" + args[i]);
         }
 
+        short x = 10;
+        long y = 2 * x;
 
     }
 
