@@ -8,7 +8,7 @@
 ## How to use
 
 - Clone this repo locally
-- Find and open the file related to the topic you want to check with IntelliJ IDEA
+- Find and open the file related to the topic you want to learn / experiment with IntelliJ IDEA
 - Read the code and run the chosen class' main method
 - Run MainApp.main()
 
