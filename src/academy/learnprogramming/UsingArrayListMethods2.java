@@ -5,6 +5,15 @@ import java.util.List;
 
 public class UsingArrayListMethods2 {
 
+    static int mx(int s) {
+        for (int i = 0; i < 3; i++) {
+            System.out.println(s);
+            System.out.println(i);
+            s = s + i;
+        }
+        return s;
+    }
+
     public static void main(String[] args) {
         List<String> pets = new ArrayList<>();
 
