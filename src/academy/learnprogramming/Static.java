@@ -17,6 +17,13 @@ public class Static {
 //        System.out.println(name);
     }
 
+    public void four() {
+        one();
+        two();
+        three();
+        System.out.println(name);
+    }
+
     public static void main(String[] args) {
         Static.one();
         one();
@@ -28,12 +35,5 @@ public class Static {
         myInstance.four();
 
         new Static().four();
-    }
-
-    public void four() {
-        one();
-        two();
-        three();
-        System.out.println(name);
     }
 }
