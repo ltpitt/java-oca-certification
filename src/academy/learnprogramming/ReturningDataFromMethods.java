@@ -3,6 +3,8 @@ package academy.learnprogramming;
 public class ReturningDataFromMethods {
 
     public static void main(String[] args) {
+        System.out.println("*****");
+        System.out.println(false != false);
         int number = 2;
         String word = "xyz";
 
