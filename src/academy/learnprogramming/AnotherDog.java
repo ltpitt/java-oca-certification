@@ -1,6 +1,6 @@
 package academy.learnprogramming;
 
-public class Dog {
+public class AnotherDog {
 
     public static int count = 0;
 

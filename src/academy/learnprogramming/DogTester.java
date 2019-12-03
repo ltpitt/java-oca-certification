@@ -3,37 +3,37 @@ package academy.learnprogramming;
 public class DogTester {
 
     public static void main(String[] args) {
-        Dog husky = new Dog();
+        AnotherDog husky = new AnotherDog();
 
         System.out.println(husky.count); // warning
-        System.out.println(Dog.count);
+        System.out.println(AnotherDog.count);
 
-        Dog anotherDog = new Dog();
+        AnotherDog anotherDog = new AnotherDog();
         anotherDog.incrementCounter(); // warning
 
-        Dog.incrementCounter();
+        AnotherDog.incrementCounter();
 
-        System.out.println(Dog.count);
+        System.out.println(AnotherDog.count);
 
         husky = null;
         anotherDog = null;
 
-        System.out.println(Dog.count);
+        System.out.println(AnotherDog.count);
         System.out.println(husky.count);
         System.out.println(anotherDog.count);
 
-        Dog.count = 10;
-        Dog newDog = new Dog();
-        Dog dog2 = new Dog();
+        AnotherDog.count = 10;
+        AnotherDog newDog = new AnotherDog();
+        AnotherDog dog2 = new AnotherDog();
         newDog.count = 5;
 
-        System.out.println(Dog.count);
+        System.out.println(AnotherDog.count);
         System.out.println(newDog.count);
         System.out.println(dog2.count);
 
         dog2.count = 11;
 
-        System.out.println(Dog.count); // 11
+        System.out.println(AnotherDog.count); // 11
         System.out.println(newDog.count);
         System.out.println(dog2.count);
     }
