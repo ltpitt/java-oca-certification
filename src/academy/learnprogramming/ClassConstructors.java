@@ -1,6 +1,6 @@
 package academy.learnprogramming;
 
-class Dog {
+class OtherDog {
 
     private String color;
 
