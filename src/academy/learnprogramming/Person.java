@@ -1,33 +1,40 @@
 package academy.learnprogramming;
 
+/**
+ * @author goran on 14/07/2017.
+ */
 public class Person {
 
     private String firstName;
     private String lastName;
-    private int age;
+
+    public Person() {
+        this("Eric", "Jonson");
+    }
+
+    public Person(String firstName, String last) {
+//        this();
+        this.firstName = firstName;
+//        this.lastName = last;
+//        String lastName = "myName";
+        lastName = last;
+    }
+
+    public static void main(String[] args) {
+
+    }
 
     public String getFirstName() {
         return firstName;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
     public void setFirstName(String firstName) {
+//        this();
         this.firstName = firstName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public String getFullName() {
+//        return this.firstName + " " + this.lastName;
+        return firstName + lastName;
     }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
 }
