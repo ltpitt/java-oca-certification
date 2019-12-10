@@ -3,7 +3,7 @@ package academy.learnprogramming;
 /**
  *
  */
-public class Main {
+public class YetAnotherMain {
 
 
     /**
