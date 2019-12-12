@@ -17,12 +17,12 @@ class OtherDog {
 //    public void Dog() {} // not constructor since it has return type
 }
 
-class Cat {
+class OtherCat {
     private String color;
     private int height;
     private int length;
 
-    public Cat(int length, int theHeight) {
+    public OtherCat(int length, int theHeight) {
 //        length = this.length;
         this.length = length;
         height = theHeight;
@@ -40,7 +40,7 @@ public class ClassConstructors {
 //        Dog dog = new Dog("gray");
 //        dog.printColor();
 
-        Cat cat = new Cat(10, 12);
+        OtherCat cat = new OtherCat(10, 12);
         cat.printInfo();
     }
 }
