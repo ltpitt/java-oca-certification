@@ -5,6 +5,9 @@ public class Animal {
     private int age;
     private String name;
 
+    public Animal() {
+    }
+
     public Animal(int age) {
         System.out.println("Animal");
         this.age = age;
