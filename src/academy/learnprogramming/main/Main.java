@@ -16,5 +16,7 @@ public class Main {
 
         husky.eat();
         System.out.println("avg= " + husky.getAverageWeight());
+
+
     }
 }
