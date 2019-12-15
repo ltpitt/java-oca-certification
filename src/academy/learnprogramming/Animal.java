@@ -1,5 +1,6 @@
 package academy.learnprogramming;
 
+
 public abstract class Animal {
 
     private int age;
@@ -37,7 +38,17 @@ public abstract class Animal {
         return 10.0;
     }
 
+    protected abstract void printName();
+
     public void printDetails() {
-        System.out.println("name= " + name + " age= " + age);
+        printName();
+        System.out.println("age= " + age);
     }
+
+//    public static abstract void run();
+//    public abstract void run() {
+//        System.out.println("running");
+//    }
+
+    public abstract int getWeight();
 }

@@ -1,5 +1,8 @@
 package academy.learnprogramming;
 
+/**
+ * @author goran on 15/07/2017.
+ */
 public class Rabbit extends Animal {
 
     public Rabbit() {
@@ -20,5 +23,15 @@ public class Rabbit extends Animal {
 //        this();
 //        setAge(3);
         super(3);
+    }
+
+    @Override
+    public int getWeight() {
+        return 2;
+    }
+
+    @Override
+    public void printName() {
+
     }
 }
