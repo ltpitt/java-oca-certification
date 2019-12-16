@@ -2,6 +2,7 @@ package academy.learnprogramming.main;
 
 import academy.learnprogramming.Husky;
 
+
 public class Main {
 
     public static void main(String[] args) {
