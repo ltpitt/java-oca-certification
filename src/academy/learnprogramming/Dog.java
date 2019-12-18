@@ -1,11 +1,16 @@
 package academy.learnprogramming;
 
 
-public abstract class Dog extends Animal {
+public abstract class Dog extends Animal implements HasTail, CanRun {
 
     public Dog(int age) {
         super(age);
         System.out.println("Dog");
+    }
+
+    @Override
+    public int getTailLength() {
+        return 5;
     }
 
     @Override

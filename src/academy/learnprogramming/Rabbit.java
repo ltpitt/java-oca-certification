@@ -3,7 +3,7 @@ package academy.learnprogramming;
 /**
  * @author goran on 15/07/2017.
  */
-public class Rabbit extends Animal {
+public class Rabbit extends Animal implements Herbivore {
 
     public Rabbit() {
 //        super; // does not compile

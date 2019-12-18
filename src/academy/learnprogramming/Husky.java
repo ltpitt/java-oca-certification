@@ -23,6 +23,16 @@ public class Husky extends Dog {
     }
 
     @Override
+    public int getTailLength() {
+        return 20;
+    }
+
+    @Override
+    public void run(int speed) {
+        System.out.println("Husky running at speed= " + speed);
+    }
+
+    @Override
     protected void printName() {
         System.out.println("Husky name= " + getName());
     }
