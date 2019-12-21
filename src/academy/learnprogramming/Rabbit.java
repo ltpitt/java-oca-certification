@@ -3,7 +3,7 @@ package academy.learnprogramming;
 /**
  * @author goran on 15/07/2017.
  */
-public class Rabbit extends Animal implements Herbivore {
+public class Rabbit extends Animal implements Herbivore, Hop {
 
     public Rabbit() {
 //        super; // does not compile
@@ -23,6 +23,11 @@ public class Rabbit extends Animal implements Herbivore {
 //        this();
 //        setAge(3);
         super(3);
+    }
+
+    @Override
+    public void printDetails() {
+        System.out.println("Rabbit average jump height is= " + Hop.getAverageJumpHeight());
     }
 
     @Override

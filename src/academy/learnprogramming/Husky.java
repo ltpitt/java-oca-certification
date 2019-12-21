@@ -33,7 +33,7 @@ public class Husky extends Dog {
     }
 
     @Override
-    protected void printName() {
+    public void printName() {
         System.out.println("Husky name= " + getName());
     }
 }

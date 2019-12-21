@@ -5,6 +5,7 @@ import academy.learnprogramming.Cat;
 import academy.learnprogramming.Husky;
 import academy.learnprogramming.Rabbit;
 
+
 public class Main {
 
     public static void main(String[] args) {
@@ -36,6 +37,7 @@ public class Main {
 
         Rabbit rabbit = new Rabbit();
         rabbit.eatPlants();
+        rabbit.printDetails();
 
         Cat cat = new Cat(3);
         int speed = cat.getSpeed();
