@@ -1,5 +1,4 @@
 import academy.learnprogramming.Animal;
-import academy.learnprogramming.Run;
 
 
 public class Cat extends Animal implements Run {

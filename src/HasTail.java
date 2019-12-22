@@ -1,6 +1,4 @@
-/**
- * @author goran on 15/07/2017.
- */
+
 public interface HasTail {
 
 //    public static final int DEFAULT_TAIL_LENGTH = 2;

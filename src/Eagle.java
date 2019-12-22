@@ -1,8 +1,6 @@
 import academy.learnprogramming.Bird;
 
-/**
- * @author goran on 15/07/2017.
- */
+
 public class Eagle extends Bird {
 
     public int fly(int height) {

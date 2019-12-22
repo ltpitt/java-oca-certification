@@ -1,6 +1,4 @@
-/**
- * @author goran on 15/07/2017.
- */
+
 public class Bird  {
 
     public void fly() {

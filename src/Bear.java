@@ -1,9 +1,7 @@
 import academy.learnprogramming.Animal;
 import academy.learnprogramming.Omnivore;
 
-/**
- * @author goran on 15/07/2017.
- */
+
 public class Bear extends Animal implements Omnivore {
 
     @Override

@@ -1,9 +1,7 @@
 import academy.learnprogramming.Animal;
 import academy.learnprogramming.Herbivore;
 
-/**
- * @author goran on 15/07/2017.
- */
+
 public class Rabbit extends Animal implements Herbivore, Hop {
 
     public Rabbit() {

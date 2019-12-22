@@ -1,8 +1,4 @@
-import academy.learnprogramming.Reptile;
 
-/**
- * @author goran on 15/07/2017.
- */
 public class Snake extends Reptile {
 
     @Override
