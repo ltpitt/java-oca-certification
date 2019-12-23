@@ -5,9 +5,7 @@ import academy.learnprogramming.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author goran on 18/07/2017.
- */
+
 public class Polymorphism {
 
     public static void main(String[] args) {

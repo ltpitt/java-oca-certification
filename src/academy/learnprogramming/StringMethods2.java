@@ -1,8 +1,6 @@
 package academy.learnprogramming;
 
-/**
- * @author goran on 6/07/2017.
- */
+
 public class StringMethods2 {
 
     public static void main(String[] args) {
