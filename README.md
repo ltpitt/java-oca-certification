@@ -18,7 +18,7 @@ Davide Nastri – [@pitto](https://twitter.com/pitto) – d.nastri@gmail.com
 
 See ``LICENSE`` for more information.
 
-[Java Text Editor](https://github.com/ltpitt/java-oca-certification)
+[Java OCA Certification](https://github.com/ltpitt/java-oca-certification)
 
 ## Contributing
 
