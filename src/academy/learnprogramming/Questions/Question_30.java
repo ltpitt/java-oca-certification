@@ -6,7 +6,7 @@ public class Question_30 {
         Question_30 ex = new Question_30();
         int cardNo = 12344;
         // Compilation only fails at line 17 because of Unhandled Exception
-        ex.readCard(cardNo);
+        //ex.readCard(cardNo);
         ex.checkCard(cardNo);
     }
 
