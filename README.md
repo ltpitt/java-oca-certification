@@ -14,7 +14,7 @@
 
 ## Meta
 
-Davide Nastri – [@pitto](https://twitter.com/pitto) – d.nastri@gmail.com
+Davide Nastri – d.nastri@gmail.com
 
 See ``LICENSE`` for more information.
 
